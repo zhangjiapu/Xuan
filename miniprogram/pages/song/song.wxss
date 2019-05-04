@@ -1,0 +1,47 @@
+.song{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.song-name{
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  margin: 5px 5px;
+  align-self: center
+}
+.song-index{
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  color: gray;
+  align-self: center;
+  margin: 5px 5px;
+}
+.line{
+  position: relative;
+  display: flex;
+  height: 1px;
+  width: 100%;
+  background: red;
+  margin-bottom: 3px  
+}
+.song-area{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.song-play{
+  height: 20px;
+  width: 20px;
+  float: right;  
+  margin-top: 15px;
+  position: fixed;
+  right: 30px;
+}
+.song-isplaying{
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+}

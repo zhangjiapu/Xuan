@@ -1,0 +1,13 @@
+<view>  
+  <view class='song-area' wx:for="{{songs}}" wx:key="_id" bindtap='playSong' data-url='{{item.url}}' data-songname='{{item.name}}' data-songindex='{{index}}'>
+    <view class='song'>
+      <view class='song-index'>{{index+1}}</view>
+      <view class='song-name'>{{item.name}}</view>       
+      <view>
+        <image src='../../image/play.png' class=' song-play'></image>
+      </view>
+    </view>
+    <!-- <view class='line'></view>    -->
+    
+  </view>  
+</view>

@@ -1,0 +1,29 @@
+.folder{
+  position: relative;
+  display: flex;
+  flex-direction: row;  
+}
+.folder-left{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+}
+.folder-pic{
+  width: 60px;
+  height: 60px;  
+  border-radius: 10%
+}
+.folder-right{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+}
+.folder-info{
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  position: relative;
+  align-self: center;
+}

@@ -1,0 +1,11 @@
+<view>
+  <view class='folder' wx:for="{{folders}}" wx:key="_id" bindtap='go2song' data-id='{{item._id}}'>
+      <view class='folder-left'>
+        <image src = "{{item.pic}}" class='folder-pic' mode='aspectFit'></image>      
+      </view>
+      <view class='folder-right'>
+        <view class='folder-info'>{{item.name}}</view>
+      </view>   
+      <view class='line'></view>    
+  </view>
+</view>

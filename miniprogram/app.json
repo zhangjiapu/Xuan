@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/song/song",
+    "pages/account/account"
+  ],
+  "window": {
+    "backgroundColor": "dark",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF0000",
+    "navigationBarTitleText": "我爱南京",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "音乐",
+        "iconPath": "image/music.png",
+        "selectedIconPath": "image/musicSelected.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "首页",
+        "iconPath": "image/account.png",
+        "selectedIconPath": "image/accountSelected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes":["audio"]
+}
